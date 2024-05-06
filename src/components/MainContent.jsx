@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MapPin, Dot, ArrowDownToLine } from "lucide-react";
+import pdf from "../../assets/CV_Developer__1_.pdf"
 
 function MainContent() {
   const text =
@@ -52,7 +53,7 @@ function MainContent() {
           >
             <button className="contact text-lg font-bold">Contact Me</button>
             <a
-              href="../../assets/CV_Developer__1_.pdf"
+              href={pdf}
               className="lg:hidden contact text-lg font-bold flex justify-center items-center"
               download
             >

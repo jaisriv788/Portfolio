@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowDownToLine, Menu } from "lucide-react";
+import pdf from "../../assets/CV_Developer__1_.pdf"
 
 function Navbar() {
   return (
@@ -33,7 +34,7 @@ function Navbar() {
           </ol>
         </div>
         <a
-          href="../../assets/CV_Developer__1_.pdf"
+          href={pdf}
           className="primary-button hover:scale-110 flex items-center gap-2 btn-bg  px-2 py-1 rounded-lg transition ease-in-out duration-300 btn-bg-content  "
           download
         >
@@ -62,9 +63,6 @@ function Navbar() {
             </li>
             <li>
               <a>Work</a>
-            </li>
-            <li>
-              <a>Download CV <ArrowDownToLine size={16}/></a>
             </li>
           </ul>
         </div>
