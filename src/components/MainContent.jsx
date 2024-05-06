@@ -55,7 +55,7 @@ function MainContent() {
             <a
               href={pdf}
               className="lg:hidden contact text-lg font-bold flex justify-center items-center"
-              download
+              download="Resume"
             >
               Download CV{" "}
               <ArrowDownToLine size={20} className="animate-pulse" />
