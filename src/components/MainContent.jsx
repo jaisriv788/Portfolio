@@ -55,7 +55,7 @@ function MainContent() {
         <img
           className="img-shadow h-60 lg:h-96 fade-in-image hover:scale-110 transition ease-in-out duration-500"
           alt="img"
-          src="../../assets/DSC_0110.png"
+          src="https://images.pexels.com/photos/23506516/pexels-photo-23506516.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
         />
       </div>
     </div>
