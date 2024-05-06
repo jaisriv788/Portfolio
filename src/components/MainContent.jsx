@@ -23,8 +23,11 @@ function MainContent() {
     <div className="flex h-main flex-col-reverse gap-10 lg:flex-row py-16">
       <div className="lg:w-2/3 flex flex-col gap-6">
         <div>
-          <div className="font-extrabold lg:font-bold text-5xl lg:text-6xl heading1 text-center lg:text-left">
-            Hi, I'm Jai Srivastava
+          <div className=" font-extrabold lg:font-bold text-5xl lg:text-6xl  text-center lg:text-left">
+            Hi, I'm{" "}
+            <span className="bg-gradient-to-r from-orange-600  to-yellow-400 text-transparent bg-clip-text">
+              Jai Srivastava
+            </span>{" "}
           </div>
           <div className="py-7 text-justify lg:pr-16">{typedText}</div>
         </div>
@@ -51,9 +54,9 @@ function MainContent() {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 flex justify-center lg:items-center ">
+      <div className="lg:w-1/3 flex justify-center lg:items-center">
         <img
-          className="img-shadow h-80 lg:h-96 fade-in-image hover:scale-110 transition ease-in-out duration-500"
+          className="img-shadow fade-in-image h-96 lg:h-full hover:scale-110 transition ease-in-out duration-500"
           alt="img"
           src="https://images.pexels.com/photos/23506516/pexels-photo-23506516.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
         />

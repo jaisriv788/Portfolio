@@ -4,27 +4,29 @@ import { ArrowDownToLine, Menu } from "lucide-react";
 function Navbar() {
   return (
     <div className="flex justify-between items-center  h-nav">
-      <div className="font-bold text-3xl heading1 hover:scale-150 transition ease-in-out duration-300 hover:cursor-pointer">
+      <div className="font-bold text-4xl hover:scale-150 transition ease-in-out duration-300 hover:cursor-pointer bg-gradient-to-b from-orange-500  to-yellow-400 text-transparent bg-clip-text">
         {"<JS/>"}
       </div>
+
+      
       <div className="hidden lg:flex justify-center items-center gap-3 h-full">
         <div className="font-extralight border-r-2 border-gray-500">
           <ol className="flex gap-5 px-3 ">
             <li
               href="#about"
-              className="cursor-pointer hover:scale-125 hover:font-semibold transition ease-in-out duration-300"
+              className="cursor-pointer hover:scale-125 hover:font-bold transition ease-in-out duration-300"
             >
               About
             </li>
             <li
               href="#skills"
-              className="cursor-pointer hover:scale-125 hover:font-semibold transition ease-in-out duration-300 "
+              className="cursor-pointer hover:scale-125 hover:font-bold transition ease-in-out duration-300 "
             >
               Skills
             </li>
             <li
               href="#work"
-              className="cursor-pointer hover:scale-125 hover:font-semibold transition ease-in-out duration-300 "
+              className="cursor-pointer hover:scale-125 hover:font-bold transition ease-in-out duration-300 "
             >
               Work
             </li>
@@ -38,6 +40,7 @@ function Navbar() {
           Download CV <ArrowDownToLine size={20} className="animate-pulse" />
         </a>
       </div>
+
       <div className=" lg:hidden">
         <div className="dropdown dropdown-end dropdown-hover">
           <div
@@ -66,6 +69,9 @@ function Navbar() {
           </ul>
         </div>
       </div>
+
+
+      
     </div>
   );
 }
