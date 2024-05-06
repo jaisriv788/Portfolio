@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { MapPin, Dot, Github, MoveRight } from "lucide-react";
+import { MapPin, Dot, ArrowDownToLine } from "lucide-react";
 
 function MainContent() {
   const text =
@@ -31,7 +31,7 @@ function MainContent() {
           </div>
           <div className="py-7 text-justify lg:pr-16">{typedText}</div>
         </div>
-        <div className="flex  flex-col gap-7">
+        <div className="flex  flex-col gap-10">
           <div
             className={`flex flex-col gap-2 ${
               text.length === index ? "opacity-100" : "opacity-0"
@@ -46,11 +46,19 @@ function MainContent() {
             </div>
           </div>
           <div
-            className={`flex items-center ${
+            className={`flex flex-col sm:flex-row sm:items-start gap-7 items-center ${
               text.length === index ? "opacity-100" : "opacity-0"
             } transition-opacity ease-in duration-1000`}
           >
             <button className="contact text-lg font-bold">Contact Me</button>
+            <a
+              href="../../assets/CV_Developer__1_.pdf"
+              className="lg:hidden contact text-lg font-bold flex justify-center items-center"
+              download
+            >
+              Download CV{" "}
+              <ArrowDownToLine size={20} className="animate-pulse" />
+            </a>
           </div>
         </div>
       </div>
