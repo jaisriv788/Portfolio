@@ -36,7 +36,7 @@ function Navbar() {
         <a
           href={pdf}
           className="primary-button hover:scale-110 flex items-center gap-2 btn-bg  px-2 py-1 rounded-lg transition ease-in-out duration-300 btn-bg-content  "
-          download
+          download="Jai's Resume"
         >
           Download CV <ArrowDownToLine size={20} className="animate-pulse" />
         </a>
