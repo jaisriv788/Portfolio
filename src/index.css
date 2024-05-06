@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg1 {
+  background-color: #030712;
+}
+
+.bg2 {
+  background-color: #111827;
+}
+
+.h10 {
+  height: 8%;
+}
+
+.h90 {
+  height: 92%;
+}
+
+.fade-in-image {
+  opacity: 0;
+  animation: fadeInAnimation 10s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-shadow {
+  box-shadow: 10px 10px 0px 0px #eda023;
+}
+.img-shadow:hover {
+  box-shadow: 0px 0px 20px 5px #eda023;
+}
+
+.small-menu{
+  border: 2px solid #030712;
+}
+
+/* .btn-bg {
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  transition: background 0.5s ease; /* Smooth transition effect */
+.btn-bg {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5;
+}
+
+.btn-bg::before {
+  content: "";
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.btn-bg:hover {
+  color: white;
+  box-shadow: 6px 6px 12px #eda023;
+}
+
+.btn-bg:hover::before {
+  width: 9em;
+}
+
+.heading1 {
+  /* background: url(); */
+  background: linear-gradient(to left, #ff4e50, #f9d423, rgb(8, 178, 235));
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+
+.contact::before {
+  content: "";
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+}
+
+.contact {
+  width: 15em;
+  height: 3em;
+  border-radius: 30em;
+  box-shadow: 6px 6px 12px #c5c5c5;
+  background: white;
+  color: black;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.contact:hover {
+  scale: 110%;
+  color: white;
+  box-shadow: 5px 6px 10px 1px #eda023;
+}
+
+.contact:hover::before {
+  width: 15em;
+}
+
+.h-nav{
+ height: 13%;
+}
+
+.h-main{
+height: 87%;
+}
