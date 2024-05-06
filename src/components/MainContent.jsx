@@ -53,7 +53,7 @@ function MainContent() {
       </div>
       <div className="lg:w-1/3 flex justify-center lg:items-center ">
         <img
-          className="img-shadow h-72 lg:h-96 fade-in-image hover:scale-110 transition ease-in-out duration-500"
+          className="img-shadow h-80 lg:h-96 fade-in-image hover:scale-110 transition ease-in-out duration-500"
           alt="img"
           src="https://images.pexels.com/photos/23506516/pexels-photo-23506516.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
         />
