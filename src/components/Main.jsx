@@ -4,7 +4,7 @@ import MainContent from "./MainContent";
 
 function Main() {
   return (
-    <div className="lg:h-screen text-white bg1 py-4 px-10  lg:px-20">
+    <div className="lg:h-screen text-white bg1 px-10  lg:px-20 ">
       <Navbar />
       <MainContent />
     </div>

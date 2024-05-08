@@ -10,6 +10,10 @@
   background-color: #111827;
 }
 
+.bg-about{
+  background-color: #1d2841;
+}
+
 .h10 {
   height: 8%;
 }
@@ -29,10 +33,12 @@
 }
 
 .img-shadow {
-  box-shadow: 10px 10px 0px 0px #eda023;
+  box-shadow: 20px 20px 0px 0px #eda023;
+  border: 5px solid #030712;
 }
 .img-shadow:hover {
   box-shadow: 0px 0px 20px 5px #eda023;
+  border: none;
 }
 
 .small-menu{
@@ -133,6 +139,15 @@
 
 .h-main{
 height: 87%;
+}
+
+.img2-shadow {
+  box-shadow: -30px 30px 0px 0px gray;
+  border: 5px solid #111827;
+}
+.img2-shadow:hover {
+  box-shadow: 0px 0px 20px 5px gray;
+  border: none;
 }
 
 

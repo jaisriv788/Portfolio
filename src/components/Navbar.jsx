@@ -47,7 +47,7 @@ function Navbar() {
           <div
             tabIndex={0}
             role="button"
-            className="px-2 py-1 rounded-lg bg-white text-black"
+            className="px-2 py-1 rounded-lg bg-transprent text-white"
           >
             <Menu />
           </div>

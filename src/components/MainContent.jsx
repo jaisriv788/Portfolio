@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MapPin, Dot, ArrowDownToLine } from "lucide-react";
-import pdf from "../../assets/CV_Developer__1_.pdf"
+import pdf from "../../assets/CV_Developer__1_.pdf";
 
 function MainContent() {
   const text =
@@ -21,7 +21,7 @@ function MainContent() {
   }, [index, text.length]);
 
   return (
-    <div className="flex h-main flex-col-reverse gap-10 lg:flex-row py-16">
+    <div className="flex h-main flex-col-reverse gap-10 items-center lg:flex-row py-16">
       <div className="lg:w-2/3 flex flex-col gap-6">
         <div>
           <div className=" font-extrabold lg:font-bold text-5xl lg:text-6xl  text-center lg:text-left">
@@ -32,40 +32,25 @@ function MainContent() {
           </div>
           <div className="py-7 text-justify lg:pr-16">{typedText}</div>
         </div>
-        <div className="flex  flex-col gap-10">
-          <div
-            className={`flex flex-col gap-2 ${
-              text.length === index ? "opacity-100" : "opacity-0"
-            } transition-opacity ease-in duration-100`}
+        <div
+          className={`flex flex-col sm:flex-row sm:items-center gap-7 items-center ${
+            text.length === index ? "opacity-100" : "opacity-0"
+          } transition-opacity ease-in duration-1000`}
+        >
+          <button className="contact text-lg font-bold">Contact Me</button>
+          <a
+            href={pdf}
+            className="lg:hidden contact text-lg font-bold flex justify-center items-center"
+            download="Resume"
           >
-            <div className="flex items-center gap-3">
-              <MapPin className="text-red-500" /> Lucknow, India.
-            </div>
-            <div className="flex items-center gap-3">
-              <Dot className="text-green-600" /> Available for new
-              opportunities.
-            </div>
-          </div>
-          <div
-            className={`flex flex-col sm:flex-row sm:items-start gap-7 items-center ${
-              text.length === index ? "opacity-100" : "opacity-0"
-            } transition-opacity ease-in duration-1000`}
-          >
-            <button className="contact text-lg font-bold">Contact Me</button>
-            <a
-              href={pdf}
-              className="lg:hidden contact text-lg font-bold flex justify-center items-center"
-              download="Resume"
-            >
-              Download CV{" "}
-              <ArrowDownToLine size={20} className="animate-pulse" />
-            </a>
-          </div>
+            Download CV <ArrowDownToLine size={20} className="animate-pulse" />
+          </a>
         </div>
       </div>
-      <div className="lg:w-1/3 flex justify-center lg:items-center">
+      <div className="lg:w-1/3 flex justify-center ">
         <img
-          className="img-shadow fade-in-image h-96 lg:h-full hover:scale-110 transition ease-in-out duration-500"
+          loading="lazy"
+          className="img-shadow fade-in-image h-96 hover:scale-110 transition ease-in-out duration-500"
           alt="img"
           src="https://images.pexels.com/photos/23506516/pexels-photo-23506516.png?auto=compress&cs=tinysrgb&w=600&lazy=load"
         />
