@@ -2,13 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg2 lg:h-screen text-white px-10 lg:px-20">
-      <div className="h-nav1 flex justify-center items-end ">
+    <div className="bg2 text-white px-10 lg:px-20">
+      <div className="py-5 flex justify-center items-end ">
         <div className="bg-about h-fit px-5 py-1 rounded-3xl w-fit text-xl">
           About
         </div>
       </div>
-      <div className="h-main1 py-8 flex flex-col gap-16 lg:flex-row">
+      <div className=" py-8 flex flex-col gap-16 lg:flex-row">
         <div className="lg:w-1/3 flex justify-center">
           <img
             loading="lazy"
