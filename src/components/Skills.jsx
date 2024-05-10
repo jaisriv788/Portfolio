@@ -3,59 +3,59 @@ import SkillCard from "./SkillCard";
 
 const data = [
   {
-    icon: "../../assets/html.png",
+    icon: "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
     name: "HTML",
   },
   {
-    icon: "../../assets/css.png",
+    icon: "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
     name: "CSS",
   },
   {
-    icon: "../../assets/js.png",
+    icon: "https://upload.vectorlogo.zone/logos/javascript/images/806c2e30-cf85-4b36-81bb-037049603c34.svg",
     name: "JavaScript",
   },
   {
-    icon: "../../assets/typescript.png",
+    icon: "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
     name: "TypeScript",
   },
   {
-    icon: "../../assets/mongodb-icon.svg",
+    icon: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
     name: "MongoDB",
   },
   {
-    icon: "../../assets/icons8-express-js-48 (1).png",
+    icon: "https://upload.vectorlogo.zone/logos/expressjs/images/a1b5cb1f-dae7-4971-ab5b-68efce751b0f.svg",
     name: "ExpressJS",
   },
   {
-    icon: "../../assets/reactjs-icon.svg",
+    icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
     name: "ReactJS",
   },
   {
-    icon: "../../assets/programing.png",
+    icon: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
     name: "NodeJS",
   },
   {
-    icon: "../../assets/postgresql-icon.svg",
+    icon: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
     name: "Postgres",
   },
   {
-    icon: "../../assets/tailwindcss-icon.svg",
+    icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
     name: "Tailwind",
   },
   {
-    icon: "../../assets/icons8-git-144.png",
+    icon: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
     name: "Git",
   },
   {
-    icon: "../../assets/github-tile.svg",
+    icon: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
     name: "Github",
   },
   {
-    icon: "../../assets/file_type_light_prisma.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg",
     name: "Prisma",
   },
   {
-    icon: "../../assets/mongoose-original.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original-wordmark.svg",
     name: "Mongoose",
   },
   {
@@ -63,15 +63,15 @@ const data = [
     name: "Zod",
   },
   {
-    icon: "../../assets/docker-tile.svg",
+    icon: "https://www.vectorlogo.zone/logos/docker/docker-tile.svg",
     name: "Docker",
   },
   {
-    icon: "../../assets/cloudflare-icon.svg",
+    icon: "https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg",
     name: "Cloudflare",
   },
   {
-    icon: "../../assets/amazon_aws-icon.svg",
+    icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
     name: "AWS",
   },
 ];
