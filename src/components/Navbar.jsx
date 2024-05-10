@@ -5,7 +5,7 @@ import pdf from "../../assets/CV_Developer__1_.pdf"
 function Navbar() {
   return (
     <div className="pt-5 lg:pt-0 flex justify-between items-center  h-nav">
-      <div className="font-bold text-4xl hover:scale-150 transition ease-in-out duration-300 hover:cursor-pointer bg-gradient-to-b from-orange-500  to-yellow-400 text-transparent bg-clip-text">
+      <div className="font-bold hover:translate-y-3 text-4xl hover:scale-150 transition ease-in-out duration-300 hover:cursor-pointer bg-gradient-to-b from-orange-500  to-yellow-400 text-transparent bg-clip-text">
         {"<JS/>"}
       </div>
 

@@ -35,6 +35,10 @@ const data = [
     name: "NodeJS",
   },
   {
+    icon: "https://upload.vectorlogo.zone/logos/nextjs/images/abcffb25-b56d-475f-9c82-26818776dc33.svg",
+    name: "NextJS",
+  },
+  {
     icon: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
     name: "Postgres",
   },
@@ -69,10 +73,6 @@ const data = [
   {
     icon: "https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg",
     name: "Cloudflare",
-  },
-  {
-    icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
-    name: "AWS",
   },
 ];
 
