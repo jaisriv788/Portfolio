@@ -3,13 +3,13 @@ import React from "react";
 function About() {
   return (
     <div className="bg2 text-white px-10 lg:px-20">
-      <div className="py-5 flex justify-center items-end ">
+      <div className="pt-8 flex justify-center items-end ">
         <div className="bg-about h-fit px-5 py-1 rounded-3xl w-fit text-xl">
           About
         </div>
       </div>
-      <div className=" py-8 flex flex-col gap-16 lg:flex-row">
-        <div className="lg:w-1/3 flex justify-center">
+      <div className="pt-10 flex flex-col lg:flex-row gap-16 lg:gap-0">
+        <div className="lg:w-1/3 flex justify-center ">
           <img
             loading="lazy"
             className="hover:scale-110 h-96 lg:h-5/6 img2-shadow transition ease-in-out duration-500"
@@ -17,7 +17,7 @@ function About() {
             alt="img"
           />
         </div>
-        <div className="flex flex-col gap-5 lg:w-2/3 lg:px-16">
+        <div className="flex flex-col gap-5 lg:w-2/3 lg:px-10">
           <div className="text-2xl font-bold">
             Curious about me? Here ou have it:{" "}
           </div>

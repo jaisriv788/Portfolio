@@ -9,8 +9,8 @@ function App() {
     <div className="font-mono ">
       <Main />
       <About />
-      {/* <Skills />
-      <Work />
+      <Skills />
+      {/* <Work />
       <Contact /> */}
     </div>
   );
