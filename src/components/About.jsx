@@ -8,7 +8,7 @@ function About() {
           About
         </div>
       </div>
-      <div className="pt-10 flex flex-col lg:flex-row gap-16 lg:gap-0">
+      <div className="pt-10 pb-10 lg:pb-0 flex flex-col lg:flex-row gap-16 lg:gap-0">
         <div className="lg:w-1/3 flex justify-center ">
           <img
             loading="lazy"
